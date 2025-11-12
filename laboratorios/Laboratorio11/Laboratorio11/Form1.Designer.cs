@@ -1,4 +1,4 @@
-﻿namespace Laboratorio11
+﻿namespace laboratorio11
 {
     partial class Form1
     {
@@ -34,26 +34,27 @@
             // 
             // button1
             // 
-            button1.Location = new Point(329, 133);
+            button1.Location = new Point(67, 223);
             button1.Name = "button1";
-            button1.Size = new Size(112, 34);
+            button1.Size = new Size(131, 23);
             button1.TabIndex = 0;
-            button1.Text = "Click This\r\n";
+            button1.Text = "btnClick this";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // lblHelloWorld
             // 
             lblHelloWorld.AutoSize = true;
-            lblHelloWorld.Location = new Point(366, 187);
+            lblHelloWorld.Location = new Point(90, 262);
             lblHelloWorld.Name = "lblHelloWorld";
-            lblHelloWorld.Size = new Size(59, 25);
+            lblHelloWorld.Size = new Size(80, 15);
             lblHelloWorld.TabIndex = 1;
-            lblHelloWorld.Text = "label1";
+            lblHelloWorld.Text = "lblHelloWorld";
+            lblHelloWorld.Click += label1_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(lblHelloWorld);

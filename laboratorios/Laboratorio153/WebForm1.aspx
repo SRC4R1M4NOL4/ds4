@@ -9,14 +9,12 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
         <p>
             <asp:Label ID="Label1" runat="server" Text="introduzca un texto"></asp:Label>
         </p>
         <p>
             <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged" Width="252px"></asp:TextBox>
-            <asp:Button ID="Button1" runat="server" Text="Enviar saludo!" Width="215px" />
+            <asp:Button ID="Button1" runat="server" Text="Enviar saludo!" Width="215px" OnClick="Button1_Click" />
         </p>
         <p>
             &nbsp;</p>
