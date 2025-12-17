@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ProyectoFinal.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Spotify App</title>
+    <link rel="stylesheet" href="~/Styles/Site.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar">
+            <div class="container">
+                <h1>🎵 Spotify App</h1>
+                <nav>
+                    <ul>
+                        <li><a href="Default.aspx">Inicio</a></li>
+                        <li><a href="Buscar.aspx">Buscar</a></li>
+                        <li><a href="Reproducir.aspx">Reproducir</a></li>
+                        <li><a href="Recomendar.aspx">Recomendar</a></li>
+                        <li><a href="Reportes.aspx">Reportes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer>
+            <div class="container">
+                <p>&copy; <%: DateTime.Now.Year %> - Spotify App - Proyecto Final</p>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
