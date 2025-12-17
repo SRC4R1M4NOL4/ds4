@@ -41,8 +41,8 @@ namespace ProyectoFinal.Services
         {
             try
             {
-                    var clientId = ConfigurationManager.AppSettings["SpotifyClientId"];
-                var clientSecret = ConfigurationManager.AppSettings["SpotifyClientSecret"];
+                    var clientId = ConfigurationManager.AppSettings["e1ce6b1455434cd6bd83e982bb2e04c9"];
+                var clientSecret = ConfigurationManager.AppSettings["556af6071fc1453fac97f063923fed7b"];
 
                 if (string.IsNullOrWhiteSpace(clientId) || string.IsNullOrWhiteSpace(clientSecret))
                 {

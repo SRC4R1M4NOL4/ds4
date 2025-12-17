@@ -4,7 +4,6 @@ using System.Data.SqlClient;
 
 namespace ProyectoFinal.Services
 {
-    // Implementación colocada en carpeta Services para que quede incluida en el proyecto Web Application
     public sealed class DatabaseService
     {
         private static readonly Lazy<DatabaseService> _lazy = new Lazy<DatabaseService>(() => new DatabaseService());
